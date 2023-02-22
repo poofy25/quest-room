@@ -31,11 +31,13 @@ function HeaderComponent() {
         console.log("Open");
         document.querySelector(".hamburgerButton").classList.add('open');
         document.querySelector(".hamburgerMenu").classList.add('show');
+        document.querySelector(".hamburgerMenuShadow").classList.add('show');
       } else {
         hasOpened = false;
         console.log("Close")
         document.querySelector(".hamburgerButton").classList.remove('open');
         document.querySelector(".hamburgerMenu").classList.remove('show');
+        document.querySelector(".hamburgerMenuShadow").classList.remove('show');
       }
 
   }
@@ -55,10 +57,11 @@ function HeaderComponent() {
     </button>
     <div className="hamburgerMenu">
        <button onClick={navigateHome} >ACASA</button>
-       
        <button onClick={navigateAbout}>DESPRE NOI</button>
        <button onClick={navigateToContacts}>CONTACTE</button>
+       
     </div>
+    <div className="hamburgerMenuShadow"></div>
     </header>
   )
 }
