@@ -14,7 +14,7 @@ function FooterComponent() {
     <a><img src={InstagramIcon}/></a>
     <a><img src={InstagramIcon}/></a>
   </div>
-  <p>© Quest Room</p>
+  <p>© KeyTime</p>
 
   </footer>
   )

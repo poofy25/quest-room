@@ -43,17 +43,17 @@ function HeaderComponent() {
 
   return (
     <header className="headerContainer">
-    <p>QUEST <br/> ROOM </p>
+    <p>KEY <br/> TIME </p>
     <button className='hamburgerButton' onClick={hamburgerHandler}>
         <div className="hamburgerButtonRow1"></div>
         <div className="hamburgerButtonRow2"></div>
         <div className="hamburgerButtonRow3"></div>
     </button>
     <div className="hamburgerMenu">
-       <button onClick={navigateHome} >ACASĂ</button>
-       <button onClick={navigateWork}>NOUTĂTI</button>
+       <button onClick={navigateHome} >ACASA</button>
+       <button onClick={navigateWork}>NOUTATI</button>
        <button onClick={navigateAbout}>DESPRE NOI</button>
-       <button onClick={navigateToContacts}  >CONTACTE</button>
+       <button onClick={navigateToContacts}>CONTACTE</button>
     </div>
     </header>
   )

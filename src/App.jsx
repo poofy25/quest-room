@@ -1,5 +1,6 @@
 
 import { HashRouter , Routes , Route } from 'react-router-dom';
+import "/webfontkit-20230222-105009/stylesheet.css"
 import HomePage from './pages/home.jsx';
 import WorkPage from './pages/work.jsx';
 import ContactPage from './pages/contact.jsx';
