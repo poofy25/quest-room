@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import './header.css'
-
+import questRoomLogo from "/src/assets/quest-room-LOGO.png"
 
 function HeaderComponent() {
 
@@ -43,7 +43,11 @@ function HeaderComponent() {
 
   return (
     <header className="headerContainer">
-    <p>KEY <br/> TIME </p>
+      <div className="headerLogoContainer">
+      <a><img src={questRoomLogo}/></a>
+      <p>KEY <br/> TIME </p>
+      </div>
+    
     <button className='hamburgerButton' onClick={hamburgerHandler}>
         <div className="hamburgerButtonRow1"></div>
         <div className="hamburgerButtonRow2"></div>
@@ -51,7 +55,7 @@ function HeaderComponent() {
     </button>
     <div className="hamburgerMenu">
        <button onClick={navigateHome} >ACASA</button>
-       <button onClick={navigateWork}>NOUTATI</button>
+       
        <button onClick={navigateAbout}>DESPRE NOI</button>
        <button onClick={navigateToContacts}>CONTACTE</button>
     </div>
@@ -60,3 +64,4 @@ function HeaderComponent() {
 }
 
 export default HeaderComponent
+//<button onClick={navigateWork}>NOUTATI</button>

@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 import HeaderComponent from '../components/header/headerComp'
 import FooterComponent from '../components/footer/footerComp'
-import HomePageGrid from '../components/homePageComponents/homePageGrid'
+import Introduction from '../components/homePageComponents/introduction/IntroductionComp'
 
 function HomePage() {
 
@@ -10,6 +10,7 @@ function HomePage() {
     <>
     <HeaderComponent/>
     <div className="WebsiteContent">
+      <Introduction/>
     </div>
     <FooterComponent/>
     </>

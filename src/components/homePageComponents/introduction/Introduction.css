@@ -1,0 +1,28 @@
+.introductionContainer{
+    border:4px solid #ca5100;
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+    padding: 2.5vh 5vw 2.5vh 5vw;
+    box-sizing: border-box;
+
+}
+.introductionHeader{
+    margin: 0;
+    font-size: clamp(12px , 8vw , 40px);
+    font-family: 'lilita_oneregular';
+    position: absolute;
+    top: 0;
+    transform: translateY(calc(-50% - 4px));
+    background-color: #FF6600;
+}
+.introductionContent{
+    font-size: clamp(12px , 4.5vw , 40px);
+    font-weight: 900;
+    text-align: center;
+}

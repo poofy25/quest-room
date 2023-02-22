@@ -20,16 +20,15 @@
     z-index: -1;
     background: url('/src/assets/footerWave.png');
     background-position:bottom;
-    background-size: 100% 80vh;
+    background-size: 100% 100vh;
     background-repeat: no-repeat;
 
 }
 
 .footerContainer > p {
-    z-index: 5;
-    color: rgb(25 , 25, 75);
+    z-index: 2;
+    color:rgba(60, 65,55,1);
     font-size: clamp(10px,10vw,20px);
-    font-weight: 900;
     margin: 0.5rem;
 }
 
